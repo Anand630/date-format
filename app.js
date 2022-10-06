@@ -8,6 +8,7 @@ app.get("/", (req, resp) => {
   if (dayNumber.length === 1) {
     dayNumber = "0" + dayNumber;
   }
+
   //monthNumber
   let monthNumber = (fullDate.getMonth() + 1).toString();
   if (monthNumber.length === 1) {
